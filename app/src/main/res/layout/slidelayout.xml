@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+
+
+    <ImageView
+        android:id="@+id/slideimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart"
+        android:background="#fff"
+        android:src="@drawable/main_background" />
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayouts02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="bottom">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginBottom="-50dp"
+            android:elevation="20dp"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="4dp"
+                    android:layout_centerHorizontal="true"
+
+                    android:background="@drawable/round_outline"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:outlineProvider="background" />
+
+                <TextView
+                    android:id="@+id/slideheading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="50dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Choose the best mean of \ntransportation"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/slidedesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="50dp"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="8sp"
+                    android:text="orem ipsum dolor sit amet, consectetur adipiscing elit nMaecenas "
+                    android:textAlignment="center"
+                    android:textColor="#6C6767"
+                    android:textSize="12sp" />
+
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

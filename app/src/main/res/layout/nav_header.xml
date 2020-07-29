@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_routes_my_location">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+     android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_user___icon"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="5dp"
+        android:tint="#FFFFFF">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Vanshika"
+        android:textAllCaps="false"
+        android:textColor="#0D1947"
+        android:textStyle="bold"
+        android:textSize="15dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/montserrat"
+        android:text="1234567890"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:textColor="#0D1947"
+        android:textStyle="bold"
+        android:textSize="15dp">
+    </TextView>
+</LinearLayout>

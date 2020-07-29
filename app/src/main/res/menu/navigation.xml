@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title=""
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home___icon"
+        android:iconTint="#000000"/>
+
+    <item
+        android:title=""
+        android:id="@+id/nav_routes"
+        android:icon="@drawable/ic_routes___icon"/>
+
+
+    <item
+        android:title="" />
+
+    <item
+        android:title=""
+        android:id="@+id/nav_wallet"
+        android:icon="@drawable/ic_wallet___icon" />
+    <item
+        android:title=""
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_user___icon"/>
+</menu>

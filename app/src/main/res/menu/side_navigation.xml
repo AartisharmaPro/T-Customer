@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/side_home"
+        android:icon="@drawable/ic_home___icon"
+       />
+    <item
+        android:title="Profile"
+        android:id="@+id/side_profile"
+        android:iconTint="#0D1947"
+        android:icon="@drawable/ic_user___icon"/>
+    <item
+        android:title="My Trips"
+        android:id="@+id/side_routes"
+        android:icon="@drawable/ic_routes___icon"
+        android:iconTint="#0D1947"/>
+    <item
+        android:title="My Transactions"
+        android:id="@+id/side_wallet"
+        android:icon="@drawable/ic_wallet___icon"
+        android:iconTint="#0D1947"
+        />
+    <item
+    android:title="Notification"
+    android:id="@+id/side_notification"
+    android:icon="@drawable/ic_icon_ionic_ios_notifications_outline"/>
+    <item
+        android:title="SOS"
+        android:id="@+id/side_sos"
+        android:icon="@drawable/ic_sos"/>
+    <item
+        android:title="" />
+    <item
+        android:title="" />
+
+    <item
+        android:title="Logout"
+        android:id="@+id/side_logout"
+        android:icon="@drawable/ic_logout"/>
+
+
+
+</menu>

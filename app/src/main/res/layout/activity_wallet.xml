@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/transition_container"
+    android:layout_height="match_parent"
+    tools:context=".Wallet">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_small"
+        android:src="@drawable/back"
+        android:id="@+id/back"
+        app:tint="#6C6969"
+
+        android:padding="12dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/select_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Trango Wallet"
+        android:textAllCaps="false"
+        android:textColor="#0D1947"
+        android:textSize="20dp">
+
+
+    </TextView>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Available Coins"
+                android:textAllCaps="false"
+                android:textColor="#0D1947"
+                android:textSize="20dp">
+
+
+            </TextView>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="133"
+               android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/white_small"
+                android:textAllCaps="false"
+                android:textColor="#0D1947"
+                android:textSize="20dp">
+
+
+            </TextView>
+</LinearLayout>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Promo Code"
+                android:textAllCaps="false"
+                android:textColor="#0D1947"
+                android:textSize="20dp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/button_login_background" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    android:src="@drawable/ic_icon_awesome_edit"
+                    android:layout_marginLeft="280dp"
+                    android:padding="5dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Edit"
+                   android:layout_marginTop="8dp"
+                    android:textColor="#0D1947"
+                    android:textSize="14dp">
+                </TextView>
+
+
+            </LinearLayout>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="40dp"
+                android:hint="20055656666565"
+                android:textColorHint="#C0C1C3"
+                android:elevation="2dp"
+                android:background="@drawable/rounded_white_bg"
+                android:textColor="#111212"
+                android:textSize="15dp">
+
+            </EditText>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="100"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:background="@drawable/white_small"
+                    android:textAllCaps="false"
+                    android:textColor="#0D1947"
+
+                    android:textSize="20dp">
+
+
+                </TextView>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="200"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:background="@drawable/rounded_new_bg"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp">
+
+
+                </TextView>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="500"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:background="@drawable/white_small"
+                    android:textAllCaps="false"
+                    android:textColor="#0D1947"
+                    android:textSize="20dp">
+
+
+                </TextView>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="ADD MONEY"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp">
+
+            </Button>
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="REDEEM CODE"
+                android:textColor="#0D1947"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/grey_rounded_button"
+                android:layout_marginTop="30dp">
+
+            </Button>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/statements"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Statements"
+                    android:elevation="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="30dp"
+
+                    android:paddingVertical="10dp"
+                    android:background="@drawable/white_small"
+                    android:textAllCaps="false"
+                    android:textColor="#0D1947"
+                    android:textSize="10dp">
+
+
+                </TextView>
+                <TextView
+
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="FAQs"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingVertical="10dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/rounded_new_bg"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10dp">
+
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="ADD MONEY"
+                android:id="@+id/limit"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+              <TextView
+                  android:layout_width="250dp"
+                  android:layout_height="40dp"
+                  android:layout_marginLeft="10dp"
+                  android:fontFamily="@font/montserrat"
+                  android:textSize="12dp"
+                  android:text="Is there any minimum transaction limit to use TrangoCoins?"
+                  android:textColor="#FFFFFF"
+                  android:layout_marginTop="8dp">
+
+              </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/limit_ans"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/montserrat"
+                android:textSize="12dp"
+                android:text="There is no minimum transaction limit for any service payment on our app(like general service of car or bike, repairing, car care, etc)."
+                android:textColor="#151515"
+                android:visibility="gone"
+                android:background="#FFFFFF"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/expire"
+                android:text="ADD MONEY"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="Will my TrangoCoins wallet amount expire?"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/expire_ans"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/montserrat"
+                android:textSize="12dp"
+                android:text="Absolutely not! TrangoCoins wallet amount, never expires."
+                android:textColor="#151515"
+                android:visibility="gone"
+                android:background="#FFFFFF"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="ADD MONEY"
+                android:id="@+id/work"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="20dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="How TrangoCoins works?"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/work_ans"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/montserrat"
+                android:textSize="12dp"
+                android:text="TrangoCoins is a way of ensuring that you get a discount on each transaction. TrangoCoins works on the same lines as cashback,Now you can use flat TrangoCoins of the transaction amount, instead of the other modes of payment."
+                android:textColor="#151515"
+                android:visibility="gone"
+                android:background="#FFFFFF"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="ADD MONEY"
+                android:id="@+id/transfer"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="Can I transfer SuperCash to other MobiKwik wallets or a bank account?"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/transfer_ans"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/montserrat"
+                android:textSize="12dp"
+                android:text="Sorry! You cannot transfer TrangoCoins to another wallet or to a bank account. You can use it everywhere on Trango for all transactions."
+                android:textColor="#151515"
+                android:visibility="gone"
+                android:background="#FFFFFF"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="ADD MONEY"
+                android:id="@+id/supercash"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="20dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="How do I earn SuperCash?"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/supercash_ans"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/montserrat"
+                android:textSize="12dp"
+                android:text="Offers/promo codes/ coupons can be used to earn TrangoCoins, which is automatically credited in your wallet basis the specific T and C of the offer. You can add SuperCash with help of coupon codes on redeem voucher page."
+                android:textColor="#151515"
+                android:visibility="gone"
+                android:background="#FFFFFF"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="ADD MONEY"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="85dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:id="@+id/new_mek"
+
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="What’s new with TrangCoins and Trango wallet?"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/new_ans"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/montserrat"
+                android:textSize="12dp"
+                android:text="We have made the Trangooins rules quite simple and more beneficial for all the users! Now you can use fast.TrangoCoins of the transaction amount, instead of the other modes of payment. Earn much more TrangoCoins than ever before and you can save more of the transaction value on every service of bike or car category,basis the specific offer on the category. Mekcoins Earn and Burn is now more personalized to enhance your experience. If you have accumulated Mekcoins balance then Mekcoins burn gets prioritized for you to enjoy immediate benefit."
+                android:textColor="#151515"
+                android:visibility="gone"
+                android:background="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="100dp">
+
+            </TextView>
+        </LinearLayout>
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout
+        android:id="@+id/fl_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginEnd="0dp"
+            android:background="#FFFAFA"
+            app:menu="@menu/navigation"
+            android:elevation="2dp"
+            app:itemIconTint="#000000"
+            android:layout_marginBottom="0dp">
+
+
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp">
+
+        <ImageView
+            android:id="@+id/scanner"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/blue_round"
+            android:layout_gravity="bottom|center"
+            android:src="@drawable/ic_qr_code__icon"
+            app:tint="#FFFFFF">
+
+        </ImageView>
+
+    </FrameLayout>
+</RelativeLayout>

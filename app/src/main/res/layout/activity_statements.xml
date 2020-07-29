@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/t_c"
+    tools:context=".Statements">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_small"
+        android:src="@drawable/back"
+        android:id="@+id/back"
+        app:tint="#6C6969"
+
+        android:padding="12dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/select_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Trango Wallet"
+        android:textAllCaps="false"
+        android:textColor="#0D1947"
+        android:textSize="20dp">
+
+
+    </TextView>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="65dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="50dp"
+
+                    android:src="@drawable/ic_icon_awesome_coins"
+
+                    android:padding="5dp">
+                </ImageView>
+
+
+                <TextView
+
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="10"
+                    android:paddingLeft="20dp"
+                    android:paddingVertical="5dp"
+                    android:paddingRight="20dp"
+                    android:background="@drawable/white_small"
+                    android:textAllCaps="false"
+                    android:textColor="#0D1947"
+                    android:textSize="20dp">
+
+
+                </TextView>
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Current Coins"
+                android:textAllCaps="false"
+                android:textColor="#0D1947"
+                android:textSize="20dp">
+
+
+            </TextView>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1 coin = 1 rupee"
+                android:textAllCaps="false"
+                android:textColor="#767778"
+                android:textSize="10dp">
+
+
+            </TextView>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/montserrat"
+                android:text="History"
+                android:textAllCaps="false"
+                android:textColor="#0D1947"
+                android:textSize="20dp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/button_login_background" />
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+               android:id="@+id/one"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="20dp"
+
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="9,August 2020"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/statement_one"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_icon_add"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:padding="5dp">
+                    </ImageView>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                    <TextView
+
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Money added"
+                        android:textAllCaps="false"
+                        android:textColor="#0D1947"
+                        android:textSize="16dp">
+
+
+                    </TextView>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+
+                            android:fontFamily="@font/montserrat"
+                            android:text="10:20 A.M."
+                            android:textAllCaps="false"
+                            android:textColor="#303132"
+                            android:textSize="10dp">
+
+
+                        </TextView>
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="80dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="200"
+                        android:paddingTop="8dp"
+                        android:paddingLeft="25dp"
+                        android:background="@drawable/rounded_new_bg"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="15dp">
+
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_icon_add"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:padding="5dp">
+                    </ImageView>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/montserrat"
+                            android:text="Money spent"
+                            android:textAllCaps="false"
+                            android:textColor="#0D1947"
+                            android:textSize="16dp">
+
+
+                        </TextView>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+
+                            android:fontFamily="@font/montserrat"
+                            android:text="09:20 A.M."
+                            android:textAllCaps="false"
+                            android:textColor="#303132"
+                            android:textSize="10dp">
+
+
+                        </TextView>
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="80dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="500"
+                        android:paddingTop="8dp"
+                        android:paddingLeft="25dp"
+                        android:background="@drawable/rounded_new_bg"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="15dp">
+
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_icon_add"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:padding="5dp">
+                    </ImageView>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/montserrat"
+                            android:text="Money added"
+                            android:textAllCaps="false"
+                            android:textColor="#0D1947"
+                            android:textSize="16dp">
+
+
+                        </TextView>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+
+                            android:fontFamily="@font/montserrat"
+                            android:text="08:20 A.M."
+                            android:textAllCaps="false"
+                            android:textColor="#303132"
+                            android:textSize="10dp">
+
+
+                        </TextView>
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="80dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="100"
+                        android:paddingTop="8dp"
+                        android:paddingLeft="25dp"
+                        android:background="@drawable/rounded_new_bg"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="15dp">
+
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_icon_add"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:padding="5dp">
+                    </ImageView>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/montserrat"
+                            android:text="Money spent"
+                            android:textAllCaps="false"
+                            android:textColor="#0D1947"
+                            android:textSize="16dp">
+
+
+                        </TextView>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+
+                            android:fontFamily="@font/montserrat"
+                            android:text="07:20 A.M."
+                            android:textAllCaps="false"
+                            android:textColor="#303132"
+                            android:textSize="10dp">
+
+
+                        </TextView>
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="80dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="150"
+                        android:paddingTop="8dp"
+                        android:paddingLeft="25dp"
+                        android:background="@drawable/rounded_new_bg"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="15dp">
+
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="20dp"
+
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="8,August 2020"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="20dp"
+
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="7,August 2020"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="20dp"
+
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="6,August 2020"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navy_blue_bg"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="100dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="20dp"
+
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12dp"
+                    android:text="5,August 2020"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp">
+                </ImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

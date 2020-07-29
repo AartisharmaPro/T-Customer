@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="100dp"
+    android:layout_width="330dp"
+    android:gravity="center"
+    android:layout_marginLeft="35dp"
+    android:orientation="vertical">
+
+
+<RelativeLayout
+
+    android:layout_width="300dp"
+    android:layout_height="30dp"
+    >
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_checked_ellipse">
+
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_checked_ellipse">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_checked_to_checked">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+
+        android:src="@drawable/ic_check_point_ellipse">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="160dp"
+        android:src="@drawable/ic_checked_to_none_checked_rect">
+
+    </ImageView>
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:fontFamily="@font/montserrat"
+            android:text="New Delhi"
+            android:textAllCaps="false"
+            android:layout_marginLeft="5dp"
+            android:textColor="#0D1947"
+            android:textSize="15dp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Checkpoint"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+
+            android:textColor="#0D1947"
+            android:textSize="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Mumbai"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0D1947"
+            android:textSize="15dp">
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
